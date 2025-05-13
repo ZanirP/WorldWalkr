@@ -94,6 +94,12 @@ Name: Genres, dtype: object
 I think that's everything for now so we will save the dataframe to a csv and json file.
 '''
 
+''' 
+NOT A PRIORITY: 
+publication date is not important for us, but the format is not consistent.
+I think we should ignore it for now, and not use publication date for anything other than outputting it to the user.
+'''
+
 # Save the dataframe to a csv file
 books.to_csv(csv_filepath, index=False)
 # Save the dataframe to a json file
