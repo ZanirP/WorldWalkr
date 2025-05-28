@@ -33,4 +33,3 @@ class AtlasClient:
 
 atlas_client = AtlasClient(ATLAS_URI, DB_NAME)
 atlas_client.ping()
-print("Connected to Atlas instance! We are good to go!")
